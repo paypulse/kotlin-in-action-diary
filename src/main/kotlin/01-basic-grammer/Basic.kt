@@ -16,4 +16,6 @@ class Basic {
     //checkValue = "200" <-- 이건 오류
 
 
+
+
 }
