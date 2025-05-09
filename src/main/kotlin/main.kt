@@ -1,4 +1,5 @@
 import `01-basic-grammer`.Basic
+import `01-basic-grammer`.ColorEx
 import `01-basic-grammer`.Person
 import `10-Bonus-class`.Bonus
 
@@ -25,6 +26,11 @@ fun main(args: Array<String>){
     val Person = Person("Bob", true)
     println("이름 : "+Person.name)
     println("결혼 유무 : "+Person.isMarried)
+
+    /**
+     * enum class
+     * */
+    println(ColorEx.ORANGE.rgb())
 
 
 }

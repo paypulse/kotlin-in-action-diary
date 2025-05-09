@@ -40,3 +40,7 @@ append로 문자열 빌더 뒤에 추가 한다. 자바에서 + 연산으로 문
   차이는 없고 , 단지 차이가 나는 부분은 가독성에 있다. 
 - Ex. Rectangle class
 
+## enum과 when 
+-  kotlin에서 enum은  soft keyword라 부르는 존재 이다. 
+-  java와 마찬가지로 enum은 단순히 값만 열거 하는 존재가 아니다. enum클래스 안에도 프로퍼티나 메서드를 정의 할 수 있다. 
+- 
