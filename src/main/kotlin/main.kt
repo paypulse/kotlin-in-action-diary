@@ -1,6 +1,4 @@
-import `01-basic-grammer`.Basic
-import `01-basic-grammer`.ColorEx
-import `01-basic-grammer`.Person
+import `01-basic-grammer`.*
 import `10-Bonus-class`.Bonus
 
 fun main(args: Array<String>){
@@ -31,6 +29,13 @@ fun main(args: Array<String>){
      * enum class
      * */
     println(ColorEx.ORANGE.rgb())
+
+
+    /**
+     * When
+     * */
+    val colorMix = ColorMix()
+    println(colorMix.mix(Color.RED, Color.YELLOW))
 
 
 }
