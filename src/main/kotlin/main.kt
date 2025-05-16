@@ -37,5 +37,11 @@ fun main(args: Array<String>){
     val colorMix = ColorMix()
     println(colorMix.mix(Color.RED, Color.YELLOW))
 
+    /**
+     * 인자가 없는 when
+    * */
+
+
+
 
 }
