@@ -40,7 +40,7 @@ fun main(args: Array<String>){
     /**
      * 인자가 없는 when
     * */
-
+    println(colorMix.mixOptimized(Color.BLUE, Color.YELLOW))
 
 
 
